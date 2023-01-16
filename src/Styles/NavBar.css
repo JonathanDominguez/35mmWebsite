@@ -1,0 +1,91 @@
+.nav-bar-container {
+  margin-top: 1vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.name-container {
+  height: 0vh;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  float: left;
+  margin: 3.5vh 2.5vw;
+  z-index: 4;
+  position: -webkit-sticky;
+  position: sticky;
+  margin-left: 5vw;
+  font-weight: 600;
+  font-size: 1.5em;
+  color: #000;
+}
+
+.nav-item-container {
+  height: 0vh;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  float: right;
+  margin: 3.5vh 2.5vw;
+  z-index: 4;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.flex-child {
+  margin-right: 2.5vw;
+  text-align: center;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+}
+
+.box-this {
+  height: 0.1vh;
+  width: 100%;
+  background-color: white;
+}
+
+.text-this {
+  margin-top: 0.2em;
+  font-size: 1.5em;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+
+.nav-button {
+  background-color: transparent;
+  margin-top: 0.2em;
+  border: none;
+  padding: 0px 0px;
+  text-decoration: none;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.web-nav {
+  float: right;
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .grid-container {
+    background-color: red;
+  }
+  .web-nav {
+    display: block;
+    margin-top: 3vh;
+  }
+  .nav-item-container {
+    display: none;
+  }
+}/*# sourceMappingURL=NavBar.css.map */

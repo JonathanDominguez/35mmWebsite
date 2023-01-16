@@ -1,0 +1,76 @@
+.AboutMePage-body {
+  background-color: #ffffff;
+  margin-top: 0vh;
+}
+
+.about-container {
+  margin-top: 10vh;
+}
+
+.logoForSniffy {
+  margin-left: 1.25vw;
+  margin-top: 1.75vh;
+}
+
+.imageBox {
+  margin-top: 13vh;
+  height: 50vh;
+}
+
+.lineOne {
+  border-top: 1px solid #515151;
+}
+
+.imageOfMe {
+  left: 50%;
+  width: 340px;
+  margin-top: 14vh;
+  width: 80%;
+}
+
+.info-text-box {
+  text-align: center;
+}
+
+.name-title-about {
+  font-weight: 800;
+  font-size: 30px;
+  color: #515151;
+  margin-bottom: 0px;
+  margin-top: 0vh;
+}
+
+.info-box {
+  color: #777777;
+  margin: 1em 0;
+  line-height: 1.8;
+  padding: 0vh 0vw 0vh 0vw;
+  font-size: 20px;
+}
+
+.grid-container-about {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px;
+  position: absolute;
+  margin: 0 8vw;
+}
+
+.grid-item-about {
+  padding: 20px;
+  font-size: 30px;
+}
+
+.insta-logo {
+  margin: -0.7vh 0.5vw;
+}
+
+@media screen and (max-width: 1200px) {
+  .grid-container-about {
+    display: contents;
+    background-color: red;
+  }
+  .info-box {
+    margin: -16vh 10vw;
+  }
+}/*# sourceMappingURL=About.css.map */
